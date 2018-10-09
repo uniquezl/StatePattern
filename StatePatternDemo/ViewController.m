@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TrafficLight.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    TrafficLight *light = [[TrafficLight alloc] init];
+    [light operation];
+    [light operation];
+    [light operation];
 }
 
 

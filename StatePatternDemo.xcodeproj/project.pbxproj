@@ -13,6 +13,11 @@
 		B6670BEF216CD6FB005F2AFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6670BEE216CD6FB005F2AFB /* Assets.xcassets */; };
 		B6670BF2216CD6FB005F2AFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6670BF0216CD6FB005F2AFB /* LaunchScreen.storyboard */; };
 		B6670BF5216CD6FB005F2AFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6670BF4216CD6FB005F2AFB /* main.m */; };
+		B6670BFD216CD8AF005F2AFB /* State.m in Sources */ = {isa = PBXBuildFile; fileRef = B6670BFC216CD8AF005F2AFB /* State.m */; };
+		B6670C00216CD947005F2AFB /* RedState.m in Sources */ = {isa = PBXBuildFile; fileRef = B6670BFF216CD947005F2AFB /* RedState.m */; };
+		B6670C03216CD963005F2AFB /* YellowState.m in Sources */ = {isa = PBXBuildFile; fileRef = B6670C02216CD963005F2AFB /* YellowState.m */; };
+		B6670C06216CD972005F2AFB /* GreenState.m in Sources */ = {isa = PBXBuildFile; fileRef = B6670C05216CD972005F2AFB /* GreenState.m */; };
+		B6670C09216CD9C8005F2AFB /* TrafficLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B6670C08216CD9C8005F2AFB /* TrafficLight.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		B6670BF1216CD6FB005F2AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6670BF3216CD6FB005F2AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6670BF4216CD6FB005F2AFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6670BFB216CD8AF005F2AFB /* State.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
+		B6670BFC216CD8AF005F2AFB /* State.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = State.m; sourceTree = "<group>"; };
+		B6670BFE216CD947005F2AFB /* RedState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedState.h; sourceTree = "<group>"; };
+		B6670BFF216CD947005F2AFB /* RedState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedState.m; sourceTree = "<group>"; };
+		B6670C01216CD963005F2AFB /* YellowState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YellowState.h; sourceTree = "<group>"; };
+		B6670C02216CD963005F2AFB /* YellowState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YellowState.m; sourceTree = "<group>"; };
+		B6670C04216CD972005F2AFB /* GreenState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GreenState.h; sourceTree = "<group>"; };
+		B6670C05216CD972005F2AFB /* GreenState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreenState.m; sourceTree = "<group>"; };
+		B6670C07216CD9C8005F2AFB /* TrafficLight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrafficLight.h; sourceTree = "<group>"; };
+		B6670C08216CD9C8005F2AFB /* TrafficLight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrafficLight.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +77,16 @@
 				B6670BE6216CD6F9005F2AFB /* AppDelegate.m */,
 				B6670BE8216CD6F9005F2AFB /* ViewController.h */,
 				B6670BE9216CD6F9005F2AFB /* ViewController.m */,
+				B6670BFB216CD8AF005F2AFB /* State.h */,
+				B6670BFC216CD8AF005F2AFB /* State.m */,
+				B6670BFE216CD947005F2AFB /* RedState.h */,
+				B6670BFF216CD947005F2AFB /* RedState.m */,
+				B6670C01216CD963005F2AFB /* YellowState.h */,
+				B6670C02216CD963005F2AFB /* YellowState.m */,
+				B6670C04216CD972005F2AFB /* GreenState.h */,
+				B6670C05216CD972005F2AFB /* GreenState.m */,
+				B6670C07216CD9C8005F2AFB /* TrafficLight.h */,
+				B6670C08216CD9C8005F2AFB /* TrafficLight.m */,
 				B6670BEB216CD6F9005F2AFB /* Main.storyboard */,
 				B6670BEE216CD6FB005F2AFB /* Assets.xcassets */,
 				B6670BF0216CD6FB005F2AFB /* LaunchScreen.storyboard */,
@@ -141,9 +166,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6670C09216CD9C8005F2AFB /* TrafficLight.m in Sources */,
+				B6670C06216CD972005F2AFB /* GreenState.m in Sources */,
 				B6670BEA216CD6F9005F2AFB /* ViewController.m in Sources */,
+				B6670C03216CD963005F2AFB /* YellowState.m in Sources */,
 				B6670BF5216CD6FB005F2AFB /* main.m in Sources */,
 				B6670BE7216CD6F9005F2AFB /* AppDelegate.m in Sources */,
+				B6670C00216CD947005F2AFB /* RedState.m in Sources */,
+				B6670BFD216CD8AF005F2AFB /* State.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
